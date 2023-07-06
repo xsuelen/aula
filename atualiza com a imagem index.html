@@ -1,7 +1,10 @@
 <!--
-This will embed your Spreadsheet
-Sheet "Página1" as a table onto the web page.
+This code will list the contents of your Spreadsheet
+Sheet "Página1" onto the web page.
 -->
-<iframe src="https://sheet2api.com/table/SPs4Lu3QQqvM/aula/P%25C3%25A1gina1"
-width="100%" height="600" frameBorder="0"
-style="border: 1px solid #dedede;background: transparent;"></iframe>
+<div data-spreadsheet-api="https://sheet2api.com/v1/SPs4Lu3QQqvM/aula/P%25C3%25A1gina1">
+    <div><b>Dadosuf:</b>{{dadosUF}}</div>
+    <div><b>Freq:</b>{{Freq}}</div>
+    <div><b>Porcentagem:</b>{{porcentagem}}</div>
+</div>
+<script src="https://sheet2api.com/v1/template.js"></script>
